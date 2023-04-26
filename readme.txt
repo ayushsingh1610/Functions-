@@ -7,3 +7,4 @@ Write a program in C to check whether a number is a prime number or not using th
 Write a program in C to get the largest element of an array using the function.
 Write a program in C to check Armstrong and Perfect numbers using the function.
 Write a C program to find the maximum and minimum of some values using a function that returns an array.
+Write a program in C to check whether two given strings are an anagram.
