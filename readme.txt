@@ -6,3 +6,4 @@ Write a program in C to find the sum of the series 1!/1+2!/2+3!/3+4!/4+5!/5 usin
 Write a program in C to check whether a number is a prime number or not using the function.
 Write a program in C to get the largest element of an array using the function.
 Write a program in C to check Armstrong and Perfect numbers using the function.
+Write a C program to find the maximum and minimum of some values using a function that returns an array.
