@@ -1,6 +1,6 @@
 #include<stdio.h>
 int square(int);
-void main()
+int main()
 {
     int n;
     printf("Enter the number - ");
