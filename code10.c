@@ -2,28 +2,12 @@
 // if we can rearrange characters of one string to form another string. All the characters of one string must be present in another string and should appear same number of time in other string.
 #include<stdio.h>
 #include<string.h>
-// char * sort(char* str)
-// {
-//     char ss[50]="";
-//     for(char ch='a';ch<='z';ch++)
-//     {
-//         for(int i=0;i<strlen(str);i++)
-//         {
-//             if(ch==str[i])
-//             {
-//                 strncat(ss,&str[i],1);
-//             }
-//         }
-//     }
-//     return &ss;
-// }
 void main()
 {
     char s1[50];
     char s2[50];
     char str1[50]="";
     char str2[50]="";
-    const char *ch;
 
     printf("Enter the string 1- ");
     gets(s1);
@@ -40,11 +24,11 @@ void main()
             }
         }
     }
-    for(char ch='a';ch<='z';ch++)
+    for(char ch1='a';ch1<='z';ch1++)
     {
         for(int i=0;i<strlen(s2);i++)
         {
-            if(ch==s2[i])
+            if(ch1==s2[i])
             {
                 strncat(str2,&s2[i],1);
             }
