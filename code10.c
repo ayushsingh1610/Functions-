@@ -2,32 +2,61 @@
 // if we can rearrange characters of one string to form another string. All the characters of one string must be present in another string and should appear same number of time in other string.
 #include<stdio.h>
 #include<string.h>
+// char * sort(char* str)
+// {
+//     char ss[50]="";
+//     for(char ch='a';ch<='z';ch++)
+//     {
+//         for(int i=0;i<strlen(str);i++)
+//         {
+//             if(ch==str[i])
+//             {
+//                 strncat(ss,&str[i],1);
+//             }
+//         }
+//     }
+//     return &ss;
+// }
 void main()
 {
     char s1[50];
     char s2[50];
-    int p=0;
+    char str1[50]="";
+    char str2[50]="";
+    const char *ch;
 
     printf("Enter the string 1- ");
     gets(s1);
     printf("Enter the string 2- ");
     gets(s2);
 
-    for(int i=0;i<strlen(s1);i++)
+   for(char ch='a';ch<='z';ch++)
     {
-        for(int j=0;j<strlen(s2);j++)
+        for(int i=0;i<strlen(s1);i++)
         {
-            if(s1[i]!=s2[j])
+            if(ch==s1[i])
             {
-                p=1;
-                
+                strncat(str1,&s1[i],1);
             }
         }
     }
-    if(p=1)
-    printf("The strings are anagram");
+    for(char ch='a';ch<='z';ch++)
+    {
+        for(int i=0;i<strlen(s2);i++)
+        {
+            if(ch==s2[i])
+            {
+                strncat(str2,&s2[i],1);
+            }
+        }
+    }
+    // printf("%s\n",str1);
+    // printf("%s\n",str2);
+
+    if(strcmp(str1,str2)==0)
+    printf("ANAGRAM\n");
 
     else
     printf("NOT");
-
+    
 }
