@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/good/Documents/GitHub/Functions-",
-      "program": "c:/Users/good/Documents/GitHub/Functions-/build/Debug/outDebug",
+      "cwd": "c:/GitHub/Functions-",
+      "program": "c:/GitHub/Functions-/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
