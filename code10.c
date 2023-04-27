@@ -54,11 +54,9 @@ void main()
     // printf("%s\n",str2);
 
     if(strcmp(str1,str2)==0)
-    printf("ANAGRAM\n");
+    printf("The strings are ANAGRAM\n");
+
 
     else
-    printf("NOT");  
-
-    
-    
+    printf("The strings are NOT Anagram");  
 }
