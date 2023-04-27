@@ -57,6 +57,8 @@ void main()
     printf("ANAGRAM\n");
 
     else
-    printf("NOT");
+    printf("NOT");  
+
+    
     
 }
