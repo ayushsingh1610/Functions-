@@ -9,3 +9,5 @@ Write a program in C to check Armstrong and Perfect numbers using the function.
 Write a C program to find the maximum and minimum of some values using a function that returns an array.
 Write a program in C to check whether two given strings are an anagram.
 Write a C program to check whether a number is even or odd using functions.
+Write a C program to print all strong numbers between given interval using functions.[NOT DONE].
+Write a C program to print all Armstrong numbers between given interval using functions.
