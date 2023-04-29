@@ -11,3 +11,5 @@ Write a program in C to check whether two given strings are an anagram.
 Write a C program to check whether a number is even or odd using functions.
 Write a C program to print all strong numbers between given interval using functions.
 Write a C program to print all Armstrong numbers between given interval using functions. 
+Write a C program to print all perfect numbers between given interval using functions.
+C Program to Check Whether a Number can be Express as Sum of Two Prime Numbers

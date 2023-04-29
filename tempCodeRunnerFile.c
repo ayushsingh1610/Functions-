@@ -1,4 +1,2 @@
-(int i=0;i<strlen(s1);i++)
-    //     {
-    //         strncat(str1,sort(s1),1);
-    //     }
+else
+                // printf("\nThere are no two prime numbers such that their sum is- %d",a);
