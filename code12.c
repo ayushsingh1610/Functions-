@@ -1,6 +1,7 @@
 // Write a C program to print all strong numbers between given interval using functions.
 #include<stdio.h>
-void check(int,int);
+void print(int,int);
+int isstrong(int);
 int fact(int);
 void main()
 {
@@ -10,25 +11,31 @@ void main()
 
     printf("Enter the Ending point - ");
     scanf("%d",&end);
-    check(start,end);
+    print(start,end);
 }
-void check(int start,int end)
+void print(int start,int end)
 {
+      for(int i=start;i<=end;i++)
+      {
+        if(isstrong(i)==1)
+        printf("%d, ",i);
+      }
+}
+int isstrong(int n)
+{
+    int backup=n;
     int sum=0;
-    while(start!=end)
+    while(n>0)
     {
-        int backup=start;
-        while (backup>0)
-        {
-        sum=sum+fact(backup%10);
-        backup=backup/10;
-        }
+        int r=n%10;
+        sum+=fact(r);
+        n/=10;
+    }
+    if(sum==backup)
+    return 1;
 
-        if(sum==start)
-        printf("%d, ",start);
-
-        start++;
-    }  
+    else 
+    return 0;
 }
 int fact(int n)
 {
